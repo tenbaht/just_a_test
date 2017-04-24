@@ -1,0 +1,30 @@
+themen für die Doku:
+
+
+
+index.md:
+Hauptseite
+Einleitung: was ist sduino
+ganz kurzes Motivationsbeispiel
+kurze Liste der Boards mit links
+  + (hardware: Generelles System der Pinzuordnung) nur evtl.
+  | generelle Überlegungen zum pinout (verlinkt von jeder hardware-Seite)
+  |  + hardware/stm8blue.md: Hardwarebeschreibung, LED etc, pinout
+  |  + hardware/stm8disco.md: Hardwarebeschreibung, LED etc, pinout
+  |  + hardware/esp14.md: Hardwarebeschreibung, LED etc, pinout
+  + api.md: Unterschiede zu echtem Arduino, Implikationen des C-Ports,
+  | Libraries, generelle Idee der Portierung, Singleton/device descriptor
+  |  + api/Stepper.md
+  |  + api/LiquidCrystal.md
+  |  + ... etc
+  + tools.md
+    Installation SDCC, stm8flash. Anwendung.
+     + sdcc.md: Bemerkungen, Asm/C-Interface, Registerzuordnung, Fehler,
+     | mögliche Verbesserungen
+     + (stm8flash)
+     + make unter windows
+     + arduinomk
+
+
+status und todo
+SPL: comilierung, Bedeutung, Veränderungen,
